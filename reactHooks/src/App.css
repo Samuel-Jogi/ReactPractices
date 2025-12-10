@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: aquamarine;
 }
 
 .logo {
@@ -39,4 +40,65 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.cardDiv{
+  flex-wrap: wrap;
+  width : 10rem;
+  height:10rem;
+  border: 1px solid black ;
+  border-radius:10px;
+  background-color: white;
+  margin-top:10px;
+}
+ .cardImage{
+  width : 100%;
+  border-radius:10px;
+  object-fit:cover;
+}
+.cardDiv h4{
+  color:black;
+  margin:0;
+  padding:0;
+}
+.cardsMainDiv{
+  display:flex;
+  flex-direction: rwo;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.VueDiv{
+  background-color: azure;
+  height: 16rem;
+  width: 12rem;
+  box-shadow: darkgreen;
+  border:1px solid black;
+  color:black;
+  font-size: 16px;
+  border-radius:5px;
+  text-align: center;
+  margin-top:1rem;
+}
+
+.reactDiv{
+  background-color: azure;
+  height:16rem;
+  width:12rem;
+  border:1px solid black;
+  color:black;
+  font-size: 16px;
+  border-radius:5px;
+  text-align: center;
+}
+
+.reactDiv > button {
+  margin-bottom:16px;
+
+}
+
+.cartItem{
+display:flex;
+flex-direction: column;
+gap: 1.5rem;
+align-items: center;
 }
