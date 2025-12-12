@@ -6,10 +6,13 @@ export const QueueForm = ({queue, addToQueue}) => {
     const [service, setService] = useState('')
     console.log(queue)
     const handleSubmit = (e) => {
+        if(name.trim() !== "" && service.trim() !== ""){
         e.preventDefault();
         addToQueue({name, service})
         setName('')
-        setService('')    
+        setService('') 
+        }
+   
     }
   return (
     <div className="queueForm">
