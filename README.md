@@ -17,3 +17,7 @@ setItem([...items, newItem])
 newItem is the one which is new in the array.
 
  -->
+
+ QueueManagement : 
+
+ Here I've added simple Adding and removing using useState and props
