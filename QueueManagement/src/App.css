@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+.mainClass{
+  display:flex;
+  gap : 3rem;
+
+}
+.queueForm{
+  display:flex;
+  flex-direction: column;
+  gap : 2rem;
+  border:1px solid white;
+  border-radius: 5px;
+  padding:1em;
+  height:10rem;
+}
+.height{
+  height:2em; 
+  border:2px solid gray;
+  border-radius: 7px;
+}
+.QueueList{
+  width: auto;
+  height:2em;
+  border:1px solid gray;
+  border-radius:5px;
+  padding:5px;
+  margin-top:5px;
+}
